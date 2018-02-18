@@ -1,0 +1,433 @@
+h1 {
+   font-family: Monoton;
+   font-size:   70px;
+   margin:      0.2em;
+   text-align:  center;
+}
+
+h2 {
+   margin:     0 0 0.25em 0;
+   text-align: center;
+}
+
+h4 {
+   margin: 1.33em 0 0.6em 0;
+}
+
+a,
+a:visited,
+a:active,
+a:focus {
+   margin:          0;
+   padding:         0;
+   font-size:       100%;
+   vertical-align:  baseline;
+   background:      transparent;
+   text-decoration: none;
+   color:           #000;
+}
+
+a:hover {
+   text-decoration: underline;
+}
+
+table,
+tr,
+td {
+   border: 1px solid black;
+}
+
+table {
+   border-collapse: collapse;
+   margin:          0 auto;
+}
+
+input[type=number] {
+   width: 6em;
+}
+
+.container {
+   position:  relative;
+   margin:    auto;
+   max-width: 1250px;
+}
+
+.container:after {
+   content: "";
+   display: table;
+   clear:   both;
+}
+
+.hidden {
+   display: none;
+}
+
+.left {
+   float:     left;
+   max-width: 200px;
+}
+
+.right {
+   float:     right;
+   max-width: 1000px;
+   width:     100%;
+}
+
+form {
+   margin-bottom: 20px;
+}
+
+#canvas-form {
+   text-align:    center;
+   margin-bottom: 20px;
+}
+
+fieldset {
+   padding: 10px;
+}
+
+fieldset > legend {
+   font-weight: bold;
+}
+
+.form-group {
+   text-align:    center;
+   margin-bottom: 10px;
+}
+
+.form-group:last-child {
+   margin-bottom: 0;
+}
+
+.form-group label {
+   text-align:     right;
+   display:        inline-block;
+   vertical-align: middle;
+   margin:         0 5px 0 0;
+}
+
+#recent-colors:after {
+   content: "";
+   display: table;
+   clear:   both;
+}
+
+.remove {
+   color:       red;
+   font-size:   10px;
+   margin-left: 5px;
+}
+
+.color {
+   width:  30px;
+   height: 30px;
+   margin: 5px;
+   float:  left;
+   cursor: pointer;
+   border: 1px solid #eaeaea;
+}
+
+.color:nth-child(5n + 1) {
+   margin-left: 0;
+}
+
+.color:nth-child(5n) {
+   margin-right: 0;
+}
+
+.note {
+   font-size: 11px;
+}
+
+#merica {
+   position: absolute;
+   bottom:   0;
+   right:    0;
+}
+
+h1 {
+   font-family: Monoton;
+   font-size:   70px;
+   margin:      0.2em;
+   text-align:  center;
+}
+
+h2 {
+   margin:     0 0 0.25em 0;
+   text-align: center;
+}
+
+h4 {
+   margin: 1.33em 0 0.6em 0;
+}
+
+a,
+a:visited,
+a:active,
+a:focus {
+   margin:          0;
+   padding:         0;
+   font-size:       100%;
+   vertical-align:  baseline;
+   background:      transparent;
+   text-decoration: none;
+   color:           #000;
+}
+
+a:hover {
+   text-decoration: underline;
+}
+
+table,
+tr,
+td {
+   border: 1px solid #777 !important;
+   /*width: inherit;*/
+}
+
+td, th {
+   padding:        5px 5px;
+   display:        table-cell;
+   text-align:     left;
+   vertical-align: middle;
+   border-radius:  2px;
+}
+
+table {
+   background:      #fff;
+   border-collapse: collapse;
+   margin:          0 auto;
+   display:         flex;
+   text-align:      center;
+   justify-content: center;
+
+}
+
+tr {
+   height: 15px;
+}
+
+td {
+   padding: 0 !important;
+   height:  15px !important;
+   width:   15px !important;
+}
+
+table {
+   width: initial;
+}
+
+input[type=number] {
+   width: 6em;
+}
+
+.pickerGroup {
+   display:         flex;
+   justify-content: center;
+}
+
+.pickerGroup legend {
+   padding-right: 20px;
+}
+
+.container {
+   position:  relative;
+   margin:    auto;
+   max-width: 1250px;
+}
+
+.container:after {
+   content: "";
+   display: table;
+   clear:   both;
+}
+
+input[type='color'] {
+   /*-webkit-appearance: square-button;*/
+   width:   32px !important;
+   height:  32px !important;
+   padding: 0;
+   margin:  0;
+}
+
+.hidden {
+   display: none;
+}
+
+.left {
+   float:     left;
+   max-width: 200px;
+}
+
+.right {
+   float:     right;
+   max-width: 1000px;
+/ / width: 100 %;
+}
+
+form {
+   margin-bottom: 20px;
+}
+
+#canvas-form {
+   text-align:    center;
+   margin-bottom: 20px;
+}
+
+fieldset {
+   padding: 10px;
+}
+
+fieldset > legend {
+   font-weight: bold;
+}
+
+.form-group {
+   text-align:    center;
+   margin-bottom: 10px;
+}
+
+.form-group:last-child {
+   margin-bottom: 0;
+}
+
+input[type=text]:not(.browser-default) {
+   width: inherit;
+}
+
+.saveAs {
+   display:         flex;
+   justify-content: center;
+}
+
+.form-group label {
+   text-align:     right;
+   display:        inline-block;
+   vertical-align: middle;
+   margin:         0 5px 0 0;
+}
+
+#recent-colors:after {
+   content: "";
+   display: table;
+   clear:   both;
+}
+
+.remove {
+   color:       red;
+   font-size:   10px;
+   margin-left: 5px;
+}
+
+.color {
+   width:  30px;
+   height: 30px;
+   margin: 5px;
+   float:  left;
+   cursor: pointer;
+   border: 1px solid #eaeaea;
+}
+
+.color:nth-child(5n + 1) {
+   margin-left: 0;
+}
+
+.color:nth-child(5n) {
+   margin-right: 0;
+}
+
+.note {
+   font-size: 11px;
+}
+
+.modal1 {
+}
+
+#merica {
+   position: absolute;
+   bottom:   0;
+   right:    0;
+}
+
+.modal {
+   width:      fit-content;
+   margin-top: 300px;
+   background: transparent;
+   left:       inherit;
+   right:      inherit;
+}
+
+.modTrig {
+   display:         flex;
+   text-align:      center;
+   justify-content: center;
+   position:        relative;
+}
+
+a.modal-trigger {
+   color: #fff;
+   width: 50%;
+}
+
+.btn:focus, .upload-btn:focus{
+  outline: 0 !important;
+}
+
+
+.upload-btn {
+  color: #ffffff;
+  background-color: #F89406;
+  border: none;
+}
+
+.upload-btn:hover,
+.upload-btn:focus,
+.upload-btn:active,
+.upload-btn.active {
+  color: #ffffff;
+  background-color: #FA8900;
+  border: none;
+}
+
+
+.glyphicon {
+  font-size: 5em;
+  color: #9CA3A9;
+}
+
+.progress {
+   height: 24px;
+}
+
+.panel {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#upload-input {
+  display: none;
+}
+
+#upload-input {
+  display: none;
+}
+
+.ui-progressbar {
+   position: relative;
+}
+.progress-label {
+   position: absolute;
+   left: 50%;
+   top: 4px;
+   font-weight: bold;
+   text-shadow: 1px 1px 0 #FA8900;
+}
+
+.progress {
+   background-color: #cfd8dc;
+}
+
+#progressbar {
+   background: #FA8900;
+   height: 24px;
+}
